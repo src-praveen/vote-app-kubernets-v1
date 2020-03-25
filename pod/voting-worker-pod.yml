@@ -6,5 +6,5 @@ metadata:
     name: demo-voting-app
 spec:
   containers:
-    - name: voting-worker-pod
-      image: eesprit/voting-app-worker
+    - name: worker-app
+      image: dockersamples/examplevotingapp_worker
