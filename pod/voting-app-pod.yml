@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: voteing-app-pod
+  name: voting-app-pod
   labels:
-    name: demo-voteing-app
+    name: demo-voting-app
 spec:
   containers:
     - name: demo-voteing-app
